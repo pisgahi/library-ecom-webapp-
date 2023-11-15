@@ -22,7 +22,7 @@ const Book = ({ book }) => {
     return () => {
       mountedRef.current = true;
     };
-  });
+  },[]);
 
   return (
     <div className="book">

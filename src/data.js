@@ -17,7 +17,7 @@ export const books = [
   {
     id: 1,
     title: "Crack the Coding Interview",
-    url: `${Interview}`,
+    url: Interview,
     originalPrice: 49.95,
     salePrice: 14.95,
     rating: 4.5,
@@ -25,7 +25,7 @@ export const books = [
   {
     id: 2,
     title: "Atomic Habits",
-    url: `${Habits}`,
+    url: Habits,
     originalPrice: 39,
     salePrice: null,
     rating: 5,
@@ -33,7 +33,7 @@ export const books = [
   {
     id: 3,
     title: "Can't Hurt Me",
-    url: `${Goggins}`,
+    url: Goggins,
     originalPrice: 29,
     salePrice: null,
     rating: 5,
@@ -41,7 +41,7 @@ export const books = [
   {
     id: 4,
     title: "Deep Work",
-    url: `${Work}`,
+    url: Work,
     originalPrice: 44,
     salePrice: 19,
     rating: 4.5,
@@ -49,7 +49,7 @@ export const books = [
   {
     id: 5,
     title: "The 10X Rule",
-    url: `${Ten}`,
+    url: Ten,
     originalPrice: 32,
     salePrice: null,
     rating: 5,
@@ -57,7 +57,7 @@ export const books = [
   {
     id: 6,
     title: "Sell Or Be Sold",
-    url: `${Sell}`,
+    url: Sell,
     originalPrice: 70,
     salePrice: 12.5,
     rating: 5,
@@ -65,7 +65,7 @@ export const books = [
   {
     id: 7,
     title: "Rich Dad Poor Dad",
-    url: `${Rich}`,
+    url: Rich,
     originalPrice: 11,
     salePrice: 10,
     rating: 4,
@@ -73,7 +73,7 @@ export const books = [
   {
     id: 8,
     title: "Cashflow Quadrant",
-    url: `${CashFlow}`,
+    url: CashFlow,
     originalPrice: 38,
     salePrice: 17.95,
     rating: 4.5,
@@ -81,7 +81,7 @@ export const books = [
   {
     id: 9,
     title: "48 Laws of Power Summary",
-    url: `${Power}`,
+    url: Power,
     originalPrice: 35,
     salePrice: 19.95,
     rating: 4.5,
@@ -89,7 +89,7 @@ export const books = [
   {
     id: 10,
     title: "The 5 Second Rule",
-    url: `${Five}`,
+    url: Five,
     originalPrice: 40,
     salePrice: null,
     rating: 5,
@@ -97,7 +97,7 @@ export const books = [
   {
     id: 11,
     title: "How to Win Friends & Influence People",
-    url: `${Influence}`,
+    url: Influence,
     originalPrice: 30,
     salePrice: 20,
     rating: 5,
@@ -105,7 +105,7 @@ export const books = [
   {
     id: 12,
     title: "Mastery",
-    url: `${Mastery}`,
+    url: Mastery,
     originalPrice: 30,
     salePrice: 12.95,
     rating: 4.5,
